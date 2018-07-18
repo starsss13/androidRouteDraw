@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="524dp"
+        android:background="#34495e"
+        android:gravity="center|top"
+
+
+
+        android:orientation="vertical">
+
+        <Button
+
+            android:id="@+id/button"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:height="1dp"
+            android:background="#2ecc71"
+            android:scrollbarStyle="insideInset"
+            android:text="Haritayı aç ve ekle"
+            android:textColor="#ecf0f1" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:height="1dp"
+            android:background="#2ecc71"
+            android:scrollbarStyle="insideInset"
+            android:text="kendi haritam"
+            android:textColor="#ecf0f1" />
+
+        <Button
+
+            android:id="@+id/button5"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:height="1dp"
+            android:background="#2ecc71"
+            android:scrollbarStyle="insideInset"
+            android:text="rotam"
+            android:textColor="#ecf0f1" />
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
